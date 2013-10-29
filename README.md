@@ -1,6 +1,6 @@
 ##CloudPassage Halo Policy: CVE-2012-1823 - Apache / PHP5.x Remote Code Execution Exploit
 
-###About CVE-2012-1823 Apache / PHP 5.x Remote Code Execution Exploit
+###About
 On Tuesday, October 29th, 2013, exploit author <a href="http://www.exploit-db.com/author/?a=1856" target="new">Kingcope</a> released exploit code targeting a known vulnerability in Apache and PHP that allowed for remote code execution under certain conditions. According to the exploit's author:
 
 > This is a code execution bug in the combination of Apache and PHP. On Debian and Ubuntu the vulnerability is 
@@ -28,21 +28,21 @@ On Tuesday, October 29th, 2013, exploit author <a href="http://www.exploit-db.co
 More information on the exploit, as well as the code, can be found at <a href="http://www.exploit-db.com/exploits/29290/" target="new">http://www.exploit-db.com/exploits/29290/</a>.
 
 ####Affected and tested versions
-PHP 5.3.10
-PHP 5.3.8-1
-PHP 5.3.6-13
-PHP 5.3.3
-PHP 5.2.17
-PHP 5.2.11
-PHP 5.2.6-3
-PHP 5.2.6+lenny16 with Suhosin-Patch
+* PHP 5.3.10
+* PHP 5.3.8-1
+* PHP 5.3.6-13
+* PHP 5.3.3
+* PHP 5.2.17
+* PHP 5.2.11
+* PHP 5.2.6-3
+* PHP 5.2.6+lenny16 with Suhosin-Patch
 ####Affected versions
-PHP prior to 5.3.12
-PHP prior to 5.4.2
+* PHP prior to 5.3.12
+* PHP prior to 5.4.2
 ####Unaffected versions
-PHP 4 - getopt parser unexploitable
-PHP 5.3.12 and up
-PHP 5.4.2 and up
+* PHP 4 - getopt parser unexploitable
+* PHP 5.3.12 and up
+* PHP 5.4.2 and up
 Unaffected versions are patched by CVE-2012-1823.
 
 ###CloudPassage Policy
