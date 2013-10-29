@@ -36,14 +36,16 @@ More information on the exploit, as well as the code, can be found at <a href="h
 * PHP 5.2.11
 * PHP 5.2.6-3
 * PHP 5.2.6+lenny16 with Suhosin-Patch
+
 ####Affected versions
 * PHP prior to 5.3.12
 * PHP prior to 5.4.2
+
 ####Unaffected versions
 * PHP 4 - getopt parser unexploitable
 * PHP 5.3.12 and up
 * PHP 5.4.2 and up
-Unaffected versions are patched by CVE-2012-1823.
+* Unaffected versions are patched by CVE-2012-1823.
 
 ###CloudPassage Policy
 
